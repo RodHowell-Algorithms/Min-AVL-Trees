@@ -29,7 +29,7 @@ javac -classpath one-jar/lib/viewer.jar edu/ksu/cis/minAVL/*.java
 (Depending on your shell, you may need to replace each `/` with `\`.) To run the program after compiling it:
 
 <pre>
-java -cp .\;one-jar/lib/viewer.jar edu.ksu.cis.minAVL.Driver
+java -cp .;one-jar/lib/viewer.jar edu.ksu.cis.minAVL.Driver
 </pre>
 
 (Depending on your shell, you may need to escape the `;` or replace it with `:`, and/or you may need to replace each `/` with `\`.)
