@@ -39,7 +39,7 @@ java -cp .;one-jar/lib/viewer.jar edu.ksu.cis.minAVL.Driver
 To create a JAR archive, you will first need to create an archive containing just the package **edu.ksu.cis.minAVL**. Because the command is rather long, the files `options.txt` and `Manifest.txt` have been provided to shorten it:
 
 <pre>
-jar -c -f minAVL-only.jar @options.txt edu/ksu.cis/minAVL/*.class
+jar -c -f minAVL-only.jar @options.txt edu/ksu/cis/minAVL/*.class
 </pre>
 
 This creates the Jar archive `minAVL-only.jar`. It can be run by opening it, but only if the file `viewer.jar` (found in the folder `one-jar/lib`) is in the same folder. These can be packaged together using [One-Jar<sup>TM</sup>](http://one-jar.sourceforge.net/index.php?page=getting-started&file=quickstart). First, move `minAVL-only.jar` to the folder `one-jar/main`. Then from the `one-jar` folder:
